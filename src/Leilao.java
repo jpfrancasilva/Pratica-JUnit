@@ -5,7 +5,7 @@ import java.util.List;
 public class Leilao {
 	
 	private String descricao;
-	private List<Lance> lances;
+	private List<Lance> lances = new ArrayList<>();
 	
 	public Leilao(String descricao) {
 		this.descricao = descricao;
